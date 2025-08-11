@@ -1,7 +1,10 @@
 # 🏘️ HDB Resale Flats Recommendation for Young Families
 
 This Dash web app helps young families in Singapore find suitable HDB resale flats by balancing key priorities like proximity to schools, transportation, and amenities. It provides interactive filters, scoring logic, map visualizations, and price analytics—all in one platform.
-
+<br>
+Credits to Beatrice, Jennifer and Ziming for all their inputs for brainstorming of ideas and coming up with this collectively during coaching sessions just that we did not have enough time to put everything together cleanly.
+<br>
+and of course chatgpt, and also copilot when chatgpt limit was reached.
 ---
 
 ## 🚀 Features
@@ -31,7 +34,7 @@ This dataset includes fields like:
 - Nearby amenities like MRT, malls, hawker centres, schools
 - Affiliation, distances, and unit details
 
-For full data column descriptions, refer to the beginning of `dash-app.py`.
+For full data column descriptions, refer to data_dictionary.md
 
 ---
 
