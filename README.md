@@ -2,9 +2,10 @@
 
 This Dash web app helps young families in Singapore find suitable HDB resale flats by balancing key priorities like proximity to schools, transportation, and amenities. It provides interactive filters, scoring logic, map visualizations, and price analytics—all in one platform.<br><br>
 
-Credits to Beatrice, Jennifer and Ziming for all their inputs for brainstorming of ideas and coming up with this collectively during coaching sessions just that we did not have enough time to put everything together cleanly.<br>
+Credits to Beatrice, Jennifer and Ziming for all their inputs for brainstorming of ideas and coming up with this collectively during coaching sessions just that we did not have enough time to put everything together cleanly.<br><br>
 
 and of course chatgpt, also copilot when chatgpt limit was reached.
+
 ---
 
 ## 🚀 Features
@@ -64,6 +65,15 @@ numpy>=1.26.4
 ```bash
 python dash-app.py
 ```
+you should see this in your terminal<br>
+![alt text](image.png)
+
+Fyi, there are still a few errors but able to run<nr><nr>
+/Users/chngshuyan/projects/sample_hdb/dash-app.py:689: UserWarning:<br>
+DataFrame columns are not unique, some columns will be omitted.<br>
+/Users/chngshuyan/projects/sample_hdb/dash-app.py:738: DeprecationWarning:<br>
+*scattermapbox* is deprecated! Use *scattermap* instead. Learn more at: https://plotly.com/python/mapbox-to-maplibre/<br>
+
 
 Visit `http://127.0.0.1:8050` in your browser to use the app.
 
